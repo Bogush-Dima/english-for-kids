@@ -1,0 +1,23 @@
+.lose-window {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: #fff;
+
+  img {
+    display: block;
+    width: 40%;
+  }
+}
+
+.errors {
+  margin-bottom: 30px;
+  font-size: 3rem;
+  color: red;
+}

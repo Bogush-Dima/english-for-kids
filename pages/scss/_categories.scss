@@ -1,0 +1,25 @@
+.categories-box {
+  // display: none;
+}
+
+.categories-item {
+  background: $color_light;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 7px 0px #000000;
+
+  &:hover {
+    box-shadow: 0px 0px 15px 0px #000000;
+  }
+}
+
+.category {
+		&__img {  
+      padding-top: 0;
+      margin-top: $indent_1;
+      border-radius: 50%;
+      border: 3px solid $color_dark; 
+      height: $category_img_size;
+      width: $category_img_size;  
+		}
+}

@@ -1,0 +1,12 @@
+.category-numbers__img {
+  background: $color_numbers_bg;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0;
+}
+
+.category-numbers__img-content {
+  font-size: 3rem;
+  color: $color_light;
+}

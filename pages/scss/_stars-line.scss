@@ -1,0 +1,35 @@
+.stars-line {
+  opacity: 0;
+  height: 35px;
+  background-color: #fff;
+  border: 3px solid $color_toggle_bgc_play;
+  border-radius: 100px;
+  padding-top: 1.5px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  transition: $transition_standart;
+
+  &-inner {
+    display: flex;
+  }
+}
+
+.star-full,
+.star-empty {
+  height: 25px;
+  width: 25px;
+  background-size: contain;
+  margin: 0 5px;
+}
+
+.star-full {
+  background-image: url(../../assets/images/star-full.png);
+  
+}
+
+.star-empty {
+  background-image: url(../../assets/images/start-empty.png);
+}
